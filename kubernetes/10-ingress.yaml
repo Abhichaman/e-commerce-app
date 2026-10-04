@@ -13,8 +13,7 @@ spec:
     - easyshop
     secretName: easyshop-tls-secret  # Cert-Manager will manage this
   rules:
-  - host: 13.232.78.172
-    http:
+   - http:
       paths:
       - path: /
         pathType: Prefix
